@@ -15,7 +15,7 @@ import foo.xsd.NoIdea;
 public class App 
 {
    
-	public void boredAsHell() throws JsonParseException, JsonMappingException, IOException{
+	public void boredAdHell() throws JsonParseException, JsonMappingException, IOException{
 		
 		NoIdea noIdea ;
 		String json="{\"id_Number\":\"12345\"}";
@@ -31,7 +31,7 @@ public class App
 	public static void main( String[] args )
     {
         try {
-			new App().boredAsHell();
+			new App().boredAdHell();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
